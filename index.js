@@ -15,9 +15,13 @@ function wine() {
 
     var insideWindow = document.createElement("div");
     insideWindow.id = "insideWindow";
-    
+
+    var map = document.createElement("img");
+    map.src = "map.webp";
+    map.style.width = "100%";
+    insideWindow.appendChild(map);
+
     var p = document.createElement("p");
-    p.id = "div";
     p.style.textAlign = "center";
     p.style.textDecoration = "underline";
     p.style.cursor = "pointer";
