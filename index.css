@@ -8,7 +8,7 @@ body {
 
 header {
  display:block;
- font-size:1.9em;
+ font-size:2.0em;
  border:1px solid black;
 }
 header > span {
@@ -21,7 +21,7 @@ header > span {
  margin-right:0.1em;
  float:right;
  font-size:0.5em;
- margin-top:1.2%;
+ margin-top:1.4%;
 }
 
 #buttons {
@@ -31,7 +31,7 @@ header > span {
  grid-gap:0.5em;
 }
 #buttons > div {
- font-size:1.5em;
+ font-size:1.6em;
  border:1px solid black;
  border-radius:5px;
  text-align:center;
@@ -75,8 +75,8 @@ header > span {
 }
 
 #title {
- font-size:1.3em;
+ font-size:1.4em;
 }
 p {
- font-size:1.1em;
+ font-size:1.2em;
 }
