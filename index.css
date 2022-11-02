@@ -8,7 +8,7 @@ body {
 
 header {
  display:block;
- font-size:2.4vw;
+ font-size:1.95em;
  border:1px solid black;
 }
 header > span {
@@ -18,22 +18,22 @@ header > span {
  margin-left:0.04em;
 }
 #version {
- margin-right:0.1vw;
+ margin-right:0.1em;
  float:right;
  font-size:0.5em;
- margin-top:1.4%;
+ margin-top:1.1em;
 }
 
 #buttons {
  margin:0.7em;
  display:grid;
- grid-template-columns:1fr 1fr 1fr;
+ grid-template-columns:1fr 1fr 1fr 1fr;
  grid-gap:0.5em;
 }
 #buttons > div {
- font-size:1.9vw;
+ font-size:1.55em;
  border:1px solid black;
- border-radius:5px;
+ border-radius:10px;
  text-align:center;
  cursor:pointer;
 }
@@ -46,7 +46,7 @@ header > span {
 }
 #main > div {
  border:1px solid black;
- border-radius:5px;
+ border-radius:10px;
  text-align:center;
  overflow:scroll;
 }
@@ -75,17 +75,17 @@ header > span {
 }
 
 #title {
- font-size:1.7vw;
+ font-size:1.4em;
 }
 #title1 {
- font-size:1.7vw;
+ font-size:1.4em;
  color:#42a8e3;
 }
 p, label {
- font-size:1.4vw;
+ font-size:1.1em;
 }
 input {
- font-size:1.1vw;
+ font-size:0.9em;
 }
 
 form {
