@@ -18,19 +18,39 @@ function wine(type) {
 
     if (type == "form") {
         var form = document.createElement("form");
+        form.method = "POST";
+        form.id = "input";
           
         inputs = [
-            ["nickname", "Никнейм:", "text"],
-            ["password", "Пароль:", "text"],
+            ["nickname", "Никнейм:", "text", true],
+            ["password", "Пароль:", "text", true],
+            ["email", "Email:", "email", false],
+            ["tel", "Телефон:", "tel", false],
         ]
+
+        var title = document.createElement("p");
+        title.id = "title1";
+        title.appendChild(document.createTextNode("Регистрация"));
+        form.appendChild(title);
           
         for (_ of inputs) {
             var label = document.createElement("label");
             label.appendChild(document.createTextNode(_[1]));
-              
+            
+            var input = document.createElement("input");
+            input.type = _[2];
+            input.required = _[3];
+
             form.appendChild(label);
-            form.appendChild(document.createElement("br"))
+            form.appendChild(document.createElement("br"));
+            form.appendChild(input);
+            form.appendChild(document.createElement("br"));
         }
+
+        var submit = document.createElement("input");
+        submit.type = "submit";
+        submit.value = "Отправить";
+        form.appendChild(submit);
           
         insideWindow.appendChild(form);
       } else if (type == "wine") {
