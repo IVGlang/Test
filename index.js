@@ -5,7 +5,7 @@ function close_window() {
     panel.style.display = "none";
 }
 
-function wine() {
+function wine(type) {
     var wine = document.getElementById("window");
     wine.removeChild(document.getElementById("insideWindow"));
     wine.style.display =  "block";
@@ -16,10 +16,30 @@ function wine() {
     var insideWindow = document.createElement("div");
     insideWindow.id = "insideWindow";
 
-    var map = document.createElement("img");
-    map.src = "map.webp";
-    map.style.width = "100%";
-    insideWindow.appendChild(map);
+    if (type == "form") {
+        var form = document.createElement("form");
+          
+        inputs = [
+            ["nickname", "Никнейм:", "text"],
+            ["password", "Пароль:", "text"],
+        ]
+          
+        for (_ of inputs) {
+            var label = document.createElement("label");
+            label.appendChild(document.createTextNode(_[1]));
+              
+            form.appendChild(label);
+            form.appendChild(document.createElement("br"))
+        }
+          
+        insideWindow.appendChild(form);
+      } else if (type == "wine") {
+          var map = document.createElement("img");
+          map.src = "map.webp";
+          map.style.width = "100%";
+          insideWindow.appendChild(map);
+      }
+
 
     var p = document.createElement("p");
     p.style.textAlign = "center";
@@ -33,6 +53,9 @@ function wine() {
 }
 
 window.onload = function() {
+    var button1 = document.getElementById("button1");
+    button1.setAttribute("onclick", "wine(\"form\");");
+       
     var button2 = document.getElementById("button2");
-    button2.setAttribute("onclick", "wine();");
+    button2.setAttribute("onclick", "wine(\"wine\");");
 };
