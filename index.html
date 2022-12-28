@@ -32,6 +32,10 @@
    text-align:center;
    color:#42a8e3;
   }
+  #description {
+   text-decoration:underline;
+   cursor:pointer;
+  }
   p {
    font-size:1.17rem;
    text-align:center;
@@ -40,6 +44,11 @@
    font-size:1.1rem;
   }
   @media screen and (max-width:1280px) {
+   header {
+    background-color:black;
+    color:#42a8e3;
+    font-size:1.9rem;
+   }
    #title {
     font-size:1.3rem;
    }
@@ -51,6 +60,11 @@
    }
   }
  </style>
+ <script>
+  function adaptability() {
+      alert("Адаптивность для сайта\nДата создания: 10 ‎декабря ‎2022 ‎г., ‏‎18:21:02\nПоследнее изменение: ‎11 ‎декабря ‎2022 ‎г., ‏‎17:52:21");
+  }
+ </script>
 </head>
 <body>
  <header>
@@ -60,10 +74,9 @@
  </header>
  <div id="main">
   <div id="div">
-   <img src="adaptability.png" width="100%">
+   <img src="C:\Users\VadimIsaev\Desktop\Codes\www\IVGlang\content\adaptability.png" width="100%">
    <div id="title">adaptability</div>
-   <p>Адаптивность для сайта</p>
-   <p><a href="adaptability/index.html" target="_blank">adaptability/index.html</a></p>
+   <p id="description" onclick="adaptability()">Описание</p>
   </div>
   <div></div>
   <div></div>
