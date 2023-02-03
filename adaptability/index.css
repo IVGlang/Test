@@ -53,7 +53,7 @@ nav a {
  font-size:25px;
 }
 p {
- font-size:19;
+ font-size:19px;
 }
 
 /* footer */
@@ -62,7 +62,7 @@ footer {
 }
 
 /* tablet */
-@media (max-width:768px) {
+@media (max-width:720px) {
  #container {
   grid-template-columns:1fr 1fr;
  }
@@ -70,15 +70,15 @@ footer {
   font-size:27px;
  }
  #title {
-  font-size:21x;
+  font-size:22px;
  }
  p {
-  font-size:16x;
+  font-size:17px;
  }
 }
 
 /* mobile */
-@media (max-width:375px) {
+@media (max-width:370px) {
  #container {
   grid-template-columns:1fr;
  }
