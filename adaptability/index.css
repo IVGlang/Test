@@ -8,9 +8,34 @@ body {
  text-size-adjust:100%;
 }
 
+/* window */
+#window {
+ z-index:1;
+ display:none;
+ position:fixed;
+ min-height:80%;
+ width:80%;
+ margin-top:3%;
+ margin-left:10%;
+ background-color:white;
+ border:1px solid black;
+ border-radius:5px;
+ overflow:scroll;
+}
+#block {
+ z-index:0;
+ display:none;
+ position:fixed;
+ height:100%;
+ width:100%;
+ background-color:rgba(0, 0, 0, 0.7);
+}
+#insidewindow {
+ text-align:center;
+}
+
 /* header */
 header {
- width:100%;
  background-color:black;
  padding:2px;
 }
@@ -99,6 +124,6 @@ footer p {
   font-size:1.2em;
  }
  p {
-  font-size:1.1em;
+  font-size:1.05em;
  }
 }
