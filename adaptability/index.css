@@ -23,6 +23,10 @@ header div, nav {
  line-height:1.25em;
  margin-left:0.1%;
 }
+#version {
+ color:#42a8e3;
+ font-size:0.9em;
+}
 nav {
  float:right;
  line-height:1.6em;
@@ -77,13 +81,12 @@ footer {
  }
 }
 
+/* mobile */
 @media (max-width:690px) {
  nav {
   display:none;
  }
 }
-
-/* mobile */
 @media (max-width:370px) {
  #container {
   grid-template-columns:1fr;
