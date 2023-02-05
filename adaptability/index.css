@@ -20,7 +20,7 @@ body {
  border:1px solid black;
  border-radius:5px;
  overflow:scroll;
- spacing:2px;
+ spacing:3px;
 }
 #block {
  z-index:0;
@@ -46,10 +46,12 @@ header div, nav {
  color:#42a8e3;
  font-size:1.9em;
  margin-left:0.1%;
+ cursor:pointer;
 }
 #version {
  color:#42a8e3;
  font-size:0.9em;
+ cursor:pointer;
 }
 nav {
  float:right;
@@ -83,11 +85,10 @@ nav a, #register a {
 /* registration */
 #registration {
  display:block;
- margin-top:7%;
- margin-left:40%;
- width:20%;
- height:40%;
  border:1px solid black;
+ margin:0px auto;
+ margin-top:4em;
+ width:14em;
  border-radius:5px;
  text-align:center;
 }
@@ -122,6 +123,7 @@ footer {
  width:100%;
  color:#42a8e3;
  background-color:black;
+ cursor:pointer;
 }
 footer p {
  font-size:0.9em;
@@ -140,7 +142,7 @@ footer p {
   display:none;
  }
 }
-@media (max-width:370px) {
+@media (max-width:425px) {
  #container {
   grid-template-columns:1fr;
  }
