@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Sign up</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="index.css">
+ <script src="index.js"></script>
+</head>
+<body>
+ <div id="registration">
+  <div><a href="index.html" id="title1">Sign up</a></div>
+  <form>
+   <label>Имя:</label><br>
+   <input type="text" id="name" name="name" class="input"><br>
+   <label>Дата рождения:</label><br>
+   <input type="date" id="date" name="date" class="input"><br>
+   <label>Пол:</label><br>
+   <input type="text" list="gender" name="gender" class="input"><br>
+   <datalist id="gender">
+    <option value="Мужской"></option>
+    <option value="Женский"></option>
+   </datalist>
+   <label>Пароль:</label><br>
+   <input type="password" id="password" name="password" class="input"><br>
+   <input type="submit" value="Создать"><br>
+   <a href="#"><del>Войти</del></a>
+  </form>
+ </div>
+</body>
+</head>
