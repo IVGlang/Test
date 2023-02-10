@@ -55,15 +55,15 @@ header div, nav {
 }
 nav {
  float:right;
- font-size:1.45em;
+ font-size:1.35em;
  margin-right:1em;
- margin-top:0.2rem;
+ margin-top:0.25rem;
 }
 #register {
  float:right;
- font-size:1.45em;
+ font-size:1.35em;
  margin-right:1em;
- margin-top:0.2rem;
+ margin-top:0.25rem;
 }
 nav a, #register a {
  color:#42a8e3;
@@ -112,7 +112,7 @@ nav a, #register a {
  text-decoration:none;
 }
 p {
- font-size:1.2em;
+ font-size:1.22em;
 }
 a {
  font-size:1.1em;
@@ -132,7 +132,7 @@ footer p {
 /* tablet */
 @media (max-width:750px) {
  p {
-  font-size:1.18em;
+  font-size:1.15em;
  }
 }
 @media (max-width:720px) {
