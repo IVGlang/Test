@@ -20,7 +20,7 @@ body {
  border:1px solid black;
  border-radius:5px;
  overflow:scroll;
- spacing:3px;
+ padding:2px;
 }
 #block {
  z-index:0;
@@ -103,7 +103,7 @@ nav a, #register a {
 #title {
  color:#42a8e3;
  text-align:center;
- font-size:1.3em;
+ font-size:1.25em;
 }
 #title1 {
  color:#42a8e3;
@@ -112,7 +112,7 @@ nav a, #register a {
  text-decoration:none;
 }
 p {
- font-size:1.25em;
+ font-size:1.2em;
 }
 a {
  font-size:1.1em;
@@ -150,7 +150,7 @@ footer p {
   font-size:1.6em;
  }
  #title {
-  font-size:1.18em;
+  font-size:1.15em;
  }
  p {
   font-size:1.1em;

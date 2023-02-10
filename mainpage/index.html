@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Test</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ <style>
+  * {
+   margin:0;
+   padding:0;
+  }
+  body {
+   text-size-adjust:100%;
+  }
+  header {
+   background-color:black;
+   color:#42a8e3;
+   font-size:2rem;
+  }
+  #logo {
+   margin-left:0.15%;
+  }
+  #main {
+   margin:0.7rem;
+   display:grid;
+   grid-template-columns:1fr 1fr 1fr;
+   grid-gap:0.7em;
+  }
+  #div {
+   border:1px solid black;
+   border-radius:5px;
+  }
+  #title {
+   font-size:1.4rem;
+   text-align:center;
+   color:#42a8e3;
+  }
+  #description {
+   text-decoration:underline;
+   cursor:pointer;
+  }
+  p {
+   font-size:1.17rem;
+   text-align:center;
+  }
+  a {
+   font-size:1.1rem;
+  }
+  @media screen and (max-width:1280px) {
+   header {
+    background-color:black;
+    color:#42a8e3;
+    font-size:1.9rem;
+   }
+   #title {
+    font-size:1.3rem;
+   }
+   p {
+    font-size:1.1rem;
+   }
+   a {
+    font-size:1.0rem;
+   }
+  }
+ </style>
+ <script>
+  function adaptability() {
+      alert("Адаптивность для сайта\nДата создания: 10 декабря 2022 г., 18:21\nПоследнее изменение: 10 февраля 2023 г., 17:25");
+  }
+ </script>
+</head>
+<body>
+ <header>
+  <div id="logo">
+   Tests
+  </div>
+ </header>
+ <div id="main">
+  <div id="div">
+   <img src="adaptability.png" width="100%">
+   <div id="title">adaptability</div>
+   <p id="description" onclick="adaptability()">Описание</p>
+   <a href="https://ivglang.github.io/Test/adaptability/index.html" target="_blank"><div style="text-align:center;">index.html</div></a>
+  </div>
+  <div></div>
+  <div></div>
+ </div>
+</body>
+</html>
