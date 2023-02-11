@@ -1,7 +1,7 @@
 /* tablet */
-@media (max-width:768px) {
+@media (max-width:800px) {
  #title {
-  font-size:1.22em;
+  font-size:1.20em;
  }
  p {
   font-size:1.19em;
@@ -27,10 +27,10 @@
   font-size:1.6em;
  }
  #title {
-  font-size:1.12em;
+  font-size:1.1em;
  }
  p {
-  font-size:1.1em;
+  font-size:1.09em;
  }
  a {
   font-size:1.0em;
