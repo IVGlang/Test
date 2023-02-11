@@ -131,11 +131,6 @@ footer p {
 }
 
 /* tablet */
-@media (max-width:752px) {
- p {
-  font-size:1.18em;
- }
-}
 @media (max-width:720px) {
  #container {
   grid-template-columns:1fr 1fr;
