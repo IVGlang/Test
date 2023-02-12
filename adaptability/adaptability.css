@@ -1,5 +1,5 @@
 /* tablet */
-@media (max-width:800px) {
+@media (max-width:1280px) {
  #title {
   font-size:1.20em;
  }
@@ -27,10 +27,10 @@
   font-size:1.5em;
  }
  #title {
-  font-size:1.06em;
+  font-size:1.11em;
  }
  p {
-  font-size:1.05em;
+  font-size:1.1em;
  }
  a {
   font-size:1.0em;
@@ -39,6 +39,6 @@
   font-size:1.3em;
  }
  #registration label {
-  font-size:1.05em;
+  font-size:1.1em;
  }
 }
