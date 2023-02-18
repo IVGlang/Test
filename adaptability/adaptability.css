@@ -1,5 +1,16 @@
 /* tablet */
 @media (max-width:1280px) {
+ #logo {
+  font-size:1.7em;
+ }
+ nav {
+  font-size:1.25em;
+  margin-top:0.15rem;
+ }
+ #register {
+  font-size:1.25em;
+  margin-top:0.15rem;
+ }
  #title1 {
   font-size:1.4em;
  }
