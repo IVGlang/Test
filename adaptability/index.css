@@ -44,30 +44,27 @@ header div, nav {
 }
 #logo {
  color:#42a8e3;
- font-size:1.8em;
+ font-size:1.7rem;
  margin-left:0.1%;
  cursor:pointer;
 }
 #version {
  color:#42a8e3;
- font-size:0.9em;
+ font-size:0.9rem;
  cursor:pointer;
 }
 nav {
  float:right;
- font-size:1.3em;
- margin-right:1em;
  margin-top:0.2rem;
+ margin-right:1rem;
+}
+nav a {
+ color:#42a8e3;
+ font-size:1.34rem;
+ text-decoration:none;
 }
 #register {
- float:right;
- font-size:1.3em;
- margin-right:1em;
- margin-top:0.2rem;
-}
-nav a, #register a {
- color:#42a8e3;
- text-decoration:none;
+ margin-left:1rem;
 }
 
 /* container */
@@ -104,19 +101,19 @@ nav a, #register a {
 #title {
  color:#42a8e3;
  text-align:center;
- font-size:1.27em;
+ font-size:1.22rem;
 }
 #title1 {
  color:#42a8e3;
  text-align:center;
- font-size:1.5em;
+ font-size:1.5rem;
  text-decoration:none;
 }
 p {
- font-size:1.25em;
+ font-size:1.2rem;
 }
 a {
- font-size:1.1em;
+ font-size:1.1rem;
 }
 
 /* footer */
@@ -127,5 +124,5 @@ footer {
  cursor:pointer;
 }
 footer p {
- font-size:0.9em;
+ font-size:0.9rem;
 }

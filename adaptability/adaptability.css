@@ -1,24 +1,22 @@
 /* tablet */
 @media (max-width:1280px) {
  #logo {
-  font-size:1.7em;
+  font-size:1.6em;
  }
  nav {
-  font-size:1.25em;
   margin-top:0.2rem;
  }
- #register {
-  font-size:1.25em;
-  margin-top:0.2rem;
+ nav a {
+  font-size:1.25rem;
  }
  #title1 {
   font-size:1.4em;
  }
  #title {
-  font-size:1.18em;
+  font-size:1.13em;
  }
  p {
-  font-size:1.17em;
+  font-size:1.12em;
  }
  #registration label {
   font-size:1.17em;
@@ -44,10 +42,10 @@
   font-size:1.5em;
  }
  #title {
-  font-size:1.05em;
+  font-size:1.02em;
  }
  p {
-  font-size:1.04em;
+  font-size:1.0em;
  }
  a {
   font-size:1.0em;
