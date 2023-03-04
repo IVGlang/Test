@@ -1,25 +1,25 @@
 /* tablet */
 @media (max-width:1280px) {
  #logo {
-  font-size:1.6em;
+  font-size:1.6rem;
  }
  nav {
   margin-top:0.2rem;
  }
  nav a {
-  font-size:1.25rem;
+  font-size:1.3rrem;
  }
  #title1 {
-  font-size:1.4em;
+  font-size:1.4rem;
  }
  #title {
-  font-size:1.12em;
+  font-size:1.07rem;
  }
  p {
-  font-size:1.11em;
+  font-size:1.05rem;
  }
  #registration label {
-  font-size:1.17em;
+  font-size:1.17rem;
  }
 }
 @media (max-width:720px) {
@@ -39,21 +39,24 @@
   grid-template-columns:1fr;
  }
  #logo {
-  font-size:1.5em;
+  font-size:1.5rem;
  }
  #title {
   font-size:1.01em;
  }
  p {
-  font-size:0.9em;
+  font-size:1rem;
  }
  a {
-  font-size:0.9em;
+  font-size:1rem;
  }
  #title1 {
-  font-size:1.3em;
+  font-size:1.3rem;
  }
  #registration label {
-  font-size:1.1em;
+  font-size:1.1rem;
+ }
+ #version {
+  font-size:0.8rem;
  }
 }
