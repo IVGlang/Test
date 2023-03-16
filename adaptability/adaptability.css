@@ -1,27 +1,35 @@
 /* tablet */
 @media (max-width:1280px) {
+ /* header */
  #logo {
-  font-size:1.6rem;
+  font-size:1.5rem;
  }
+
+ /* nav */
  nav {
-  margin-top:0.2rem;
+  margin-top:0.05rem;
  }
  nav a {
-  font-size:1.3rrem;
+  font-size:1.25rem;
  }
- #title1 {
-  font-size:1.4rem;
+
+ /* registration */
+ #registration label {
+  font-size:1.1rem;
  }
+
+ /* text */
  #title {
   font-size:1.07rem;
  }
- p {
-  font-size:1.05rem;
+ #title1 {
+  font-size:1.3rem;
  }
- #registration label {
-  font-size:1.17rem;
+ p {
+  font-size:1.07rem;
  }
 }
+
 @media (max-width:720px) {
  #container {
   grid-template-columns:1fr 1fr;
@@ -30,33 +38,59 @@
 
 /* mobile */
 @media (max-width:700px) {
- nav, #register {
+ #full {
   display:none;
  }
+ #short {
+  display:block;
+ }
 }
+
 @media (max-width:425px) {
+ /* container */
  #container {
   grid-template-columns:1fr;
  }
+
+ /* header */
  #logo {
-  font-size:1.5rem;
- }
- #title {
-  font-size:1.01em;
- }
- p {
-  font-size:1rem;
- }
- a {
-  font-size:1rem;
- }
- #title1 {
-  font-size:1.3rem;
- }
- #registration label {
-  font-size:1.1rem;
+  font-size:1.2rem;
  }
  #version {
-  font-size:0.8rem;
+  font-size:0.7rem;
+ }
+
+ /* nav */
+ #dropdown {
+  margin-top:0rem;
+  margin-right:0.2rem;
+ }
+ .line {
+  margin-top:2px;
+  height:4px;
+ }
+ #account {
+  font-size:1.1rem;
+  right:2.8rem;
+  top:0.15rem;
+ }
+
+ /* registration */
+ #registration label {
+  font-size:1rem;
+ }
+
+ /* text */
+ #title {
+  font-size:0.95rem;
+ }
+ #title1 {
+  font-size:1.2rem;
+ }
+ p {
+  font-size:0.94rem;
+ }
+ a {
+  font-size:0.94rem;
  }
 }

@@ -30,8 +30,9 @@ body {
  width:100%;
  background-color:rgba(0, 0, 0, 0.7);
 }
-#insidewindow {
- text-align:center;
+#insidewindow p {
+ margin-left:0.4%;
+ margin-right:0.4%;
 }
 
 /* header */
@@ -44,7 +45,7 @@ header div, nav {
 }
 #logo {
  color:#42a8e3;
- font-size:1.7rem;
+ font-size:1.6rem;
  margin-left:0.1%;
  cursor:pointer;
 }
@@ -53,18 +54,65 @@ header div, nav {
  font-size:0.9rem;
  cursor:pointer;
 }
+
+/* nav */
 nav {
  float:right;
- margin-top:0.2rem;
- margin-right:1rem;
 }
 nav a {
  color:#42a8e3;
- font-size:1.35rem;
+ font-size:1.3rem;
  text-decoration:none;
 }
 #register {
  margin-left:1rem;
+}
+#full {
+ margin-top:0.1rem;
+ margin-right:1rem;
+}
+#short {
+ display:none;
+}
+#dropdown {
+ margin-top:0.1rem;
+ margin-right:0.4rem;
+ cursor:pointer;
+}
+.line {
+ display:block;
+ margin-top:2px;
+ width:2rem;
+ height:5px;
+ background-color:#42a8e3;
+}
+#list {
+ display:none;
+ position:fixed;
+ top:0;
+ right:0;
+ width:8.8rem;
+ height:200%;
+ background-color:black;
+ list-style-position:inside;
+}
+#list ul {
+ color:#42a8e3;
+ margin-top:100%;
+ margin-left:1rem;
+}
+#list a {
+ text-decoration:none;
+ color:#42a8e3;
+ font-size:1.19rem;
+}
+#account {
+ position:absolute;
+ text-decoration:none;
+ color:#42a8e3;
+ font-size:1.3rem;
+ right:3rem;
+ top:0.2rem;
 }
 
 /* container */
@@ -96,12 +144,15 @@ nav a {
 #registration .input {
  width:59%;
 }
+#signin {
+ font-size:1.1rem;
+}
 
 /* text */
 #title {
  color:#42a8e3;
  text-align:center;
- font-size:1.2rem;
+ font-size:1.21rem;
 }
 #title1 {
  color:#42a8e3;
@@ -110,10 +161,10 @@ nav a {
  text-decoration:none;
 }
 p {
- font-size:1.18rem;
+ font-size:1.2rem;
 }
 a {
- font-size:1.1rem;
+ font-size:1.2rem;
 }
 
 /* footer */
@@ -124,5 +175,5 @@ footer {
  cursor:pointer;
 }
 footer p {
- font-size:0.9rem;
+ font-size:0.8rem;
 }
