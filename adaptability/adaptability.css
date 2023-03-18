@@ -4,11 +4,11 @@
  #logo {
   font-size:1.5rem;
  }
+ #version {
+  font-size:0.7rem;
+ }
 
  /* nav */
- nav {
-  margin-top:0.04rem;
- }
  nav a {
   font-size:1.25rem;
  }
@@ -68,11 +68,11 @@
  #logo {
   font-size:1.2rem;
  }
- #version {
-  font-size:0.7rem;
- }
 
  /* nav */
+ nav {
+  margin-top:0.05rem;
+ }
  #dropdown {
   margin-top:0rem;
   margin-right:0.2rem;
@@ -85,7 +85,7 @@
  #account {
   font-size:1.1rem;
   right:2.8rem;
-  top:0.15rem;
+  top:0.16rem;
  }
 
  /* registration */

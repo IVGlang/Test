@@ -87,6 +87,7 @@ nav a {
  background-color:#42a8e3;
 }
 #list {
+ z-index:2;
  display:none;
  position:fixed;
  top:0;
