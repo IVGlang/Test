@@ -53,6 +53,12 @@
  /* container */
  #container {
   grid-template-columns:1fr;
+  grid-gap:8px;
+  padding:8px;
+ }
+ #container > div {
+  border-radius:3px;
+  padding:3px;
  }
 
  /* window */
