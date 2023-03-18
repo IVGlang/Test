@@ -7,7 +7,7 @@
 
  /* nav */
  nav {
-  margin-top:0.05rem;
+  margin-top:0.04rem;
  }
  nav a {
   font-size:1.25rem;
@@ -55,6 +55,15 @@
   grid-template-columns:1fr;
  }
 
+ /* window */
+ #window {
+  padding:3px;
+ }
+ #insidewindow p {
+  margin-left:0.5%;
+  margin-right:0.5%;
+ }
+
  /* header */
  #logo {
   font-size:1.2rem;
@@ -71,6 +80,7 @@
  .line {
   margin-top:2px;
   height:4px;
+  width:1.9rem;
  }
  #account {
   font-size:1.1rem;
