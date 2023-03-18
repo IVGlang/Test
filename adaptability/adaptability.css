@@ -17,6 +17,9 @@
  #registration label {
   font-size:1.1rem;
  }
+ #signin {
+  font-size:1rem;
+ }
 
  /* text */
  #title {
@@ -79,18 +82,26 @@
  #registration label {
   font-size:1rem;
  }
+ #signin {
+  font-size:0.9rem;
+ }
 
  /* text */
  #title {
-  font-size:0.95rem;
+  font-size:0.94rem;
  }
  #title1 {
   font-size:1.2rem;
  }
  p {
-  font-size:0.94rem;
+  font-size:0.93rem;
  }
  a {
-  font-size:0.94rem;
+  font-size:0.93rem;
+ }
+
+ /* footer */
+ footer p {
+  font-size:0.7rem;
  }
 }
