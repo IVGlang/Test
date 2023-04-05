@@ -74,7 +74,7 @@ nav a {
 #short {
  display:none;
 }
-#dropdown {
+#dro0down {
  margin-top:0.1rem;
  margin-right:0.4rem;
  cursor:pointer;
@@ -90,7 +90,7 @@ nav a {
  z-index:2;
  display:none;
  position:fixed;
- top:0;
+ to1
  right:0;
  width:8.8rem;
  height:200%;
@@ -98,7 +98,7 @@ nav a {
  list-style-position:inside;
 }
 #datalist {
- display:grid;
+ displ2:grid;
  grid-template-columns:1fr;
  height:50%
 }
@@ -163,7 +163,7 @@ nav a {
 #title1 {
  color:#42a8e3;
  text-align:center;
- font-size:1.5rem;
+ font-size:1.35rem;
  text-decoration:none;
 }
 p {
