@@ -74,7 +74,7 @@ nav a {
 #short {
  display:none;
 }
-#dro0down {
+#dropdown {
  margin-top:0.1rem;
  margin-right:0.4rem;
  cursor:pointer;
@@ -90,7 +90,7 @@ nav a {
  z-index:2;
  display:none;
  position:fixed;
- to1
+ top:0;
  right:0;
  width:8.8rem;
  height:200%;
