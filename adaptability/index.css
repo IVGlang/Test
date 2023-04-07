@@ -139,8 +139,8 @@ nav a {
  display:block;
  border:1px solid black;
  margin:0px auto;
- margin-top:6em;
- width:14em;
+ margin-top:6rem;
+ width:14rem;
  border-radius:5px;
  text-align:center;
 }
@@ -151,7 +151,7 @@ nav a {
  width:59%;
 }
 #signin {
- font-size:1.1rem;
+ font-size:1rem;
 }
 
 /* text */

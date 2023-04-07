@@ -95,8 +95,11 @@
  }
 
  /* registration */
+ #registration {
+   width:12rem;
+ }
  #registration label {
-  font-size:0.95rem;
+  font-size:1rem;
  }
  #signin {
   font-size:0.9rem;
@@ -107,7 +110,7 @@
   font-size:0.94rem;
  }
  #title1 {
-  font-size:1.15rem;
+  font-size:1.1rem;
  }
  p {
   font-size:0.93rem;
